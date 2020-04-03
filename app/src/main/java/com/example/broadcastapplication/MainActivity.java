@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //onClick View function
-    public void onClick(View view) {
-        //Intent object on project folder
+    public void onClick(View v) {
+        // project package assigned on Intent object
         Intent intent = new Intent("com.example.broadcastapplication.SOME_ACTION");
-        //sendBroadcast on intent
+        // call intent on sendBroadcast
         sendBroadcast(intent);
     }
 }
